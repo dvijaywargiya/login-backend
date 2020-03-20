@@ -1,3 +1,6 @@
 # Strapi application
 
-A quick description of your strapi application
+run
+    sudo npm install
+    sudo npm run build
+    sudo npm start
