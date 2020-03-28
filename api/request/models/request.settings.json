@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "requests",
+  "info": {
+    "name": "Request"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "PositiveVotes": {
+      "type": "integer",
+      "default": 0
+    },
+    "NegativeVotes": {
+      "type": "integer",
+      "default": 0
+    },
+    "Author": {
+      "type": "string"
+    }
+  }
+}
